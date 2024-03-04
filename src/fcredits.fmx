@@ -1,0 +1,24 @@
+inherited frmCredits: TfrmCredits
+  inherited imgFond: TGlyph
+    inherited zoneTexte: TVertScrollBox
+      Viewport.Width = 305.000000000000000000
+      Viewport.Height = 337.000000000000000000
+      object txtHTML: THtLabel
+        Align = Top
+        AutoSize = True
+        Size.Width = 305.000000000000000000
+        Size.Height = 15.960937500000000000
+        Size.PlatformDefault = False
+        TextSettings.Trimming = None
+        Text = 'txtHTML'
+        TabOrder = 0
+      end
+    end
+    inherited zoneTitre: TLayout
+      inherited lblTitre: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Cr'#233'dits'
+      end
+    end
+  end
+end

@@ -1,0 +1,29 @@
+inherited frmChallenge: TfrmChallenge
+  inherited imgFond: TGlyph
+    inherited ZoneScore: TLayout
+      inline AffichageTemps: TNombreEnImages
+        Align = MostRight
+        HitTest = False
+        Position.X = 550.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      inline AfficheMotTemps: TMotsEnImages
+        Align = Right
+        HitTest = False
+        Margins.Right = 20.000000000000000000
+        Position.X = 210.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object Chronometre: TTimer
+    Enabled = False
+    OnTimer = ChronometreTimer
+    Left = 664
+    Top = 184
+  end
+end

@@ -1,0 +1,26 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Pairpix'
+  ClientHeight = 381
+  ClientWidth = 679
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  OnSaveState = FormSaveState
+  DesignerMasterStyle = 0
+  object lBackground: TLayout
+    Align = Contents
+    Size.Width = 679.000000000000000000
+    Size.Height = 381.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnResize = lBackgroundResize
+  end
+end

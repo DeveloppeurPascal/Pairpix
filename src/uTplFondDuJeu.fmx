@@ -1,0 +1,21 @@
+object tplFondDuJeu: TtplFondDuJeu
+  Size.Width = 890.000000000000000000
+  Size.Height = 740.000000000000000000
+  Size.PlatformDefault = False
+  object imgFond: TGlyph
+    Align = Center
+    Size.Width = 870.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    ImageIndex = 2
+    Images = dmImgDecors.images
+    object zoneDeJeu: TLayout
+      Position.X = 72.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 729.000000000000000000
+      Size.Height = 537.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end

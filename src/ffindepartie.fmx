@@ -1,0 +1,13 @@
+inherited frmFinDePartie: TfrmFinDePartie
+  inherited imgFond: TGlyph
+    inherited zoneTexte: TVertScrollBox
+      Viewport.Width = 305.000000000000000000
+      Viewport.Height = 337.000000000000000000
+    end
+    inherited zoneTitre: TLayout
+      inherited lblTitre: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

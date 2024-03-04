@@ -1,0 +1,46 @@
+inherited frmAccueil: TfrmAccueil
+  Align = Top
+  OnResize = FrameResize
+  inherited imgFond: TGlyph
+    inherited zoneTexte: TVertScrollBox
+      Viewport.Width = 305.000000000000000000
+      Viewport.Height = 337.000000000000000000
+      object btnJouer: TGameButton
+        Kind = jeu
+        OnClick = btnJouerClick
+        Text = 'Jouer'
+      end
+      object btnCredits: TGameButton
+        Kind = credits
+        OnClick = btnCreditsClick
+        Text = 'Cr'#233'dits'
+      end
+      object btnOptions: TGameButton
+        Kind = options
+        OnClick = btnOptionsClick
+        Text = 'R'#233'glages'
+      end
+      object btnChallenge: TGameButton
+        Kind = jeu
+        OnClick = btnChallengeClick
+        Text = 'Challenge'
+      end
+      object btnScores: TGameButton
+        Kind = scores
+        OnClick = btnScoresClick
+        Text = 'Scores'
+      end
+      object btnQuitter: TGameButton
+        Kind = quitter
+        OnClick = btnQuitterClick
+        Text = 'Quitter'
+      end
+    end
+    inherited zoneTitre: TLayout
+      inherited lblTitre: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Pairpix'
+      end
+    end
+  end
+end

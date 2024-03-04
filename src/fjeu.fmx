@@ -1,0 +1,44 @@
+inherited frmJeu: TfrmJeu
+  inherited imgFond: TGlyph
+    inherited zoneDeJeu: TLayout
+      object zoneCartesDuJeu: TFlowLayout
+        Align = Center
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+      object VerrouEcran: TLayout
+        Align = Contents
+        HitTest = True
+        Size.Width = 729.000000000000000000
+        Size.Height = 537.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object ZoneScore: TLayout
+      Align = Top
+      Size.Width = 870.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      inline AffichageScore: TNombreEnImages
+        Align = Left
+        HitTest = False
+        Position.X = 340.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      inline AfficheMotScore: TMotsEnImages
+        Align = MostLeft
+        HitTest = False
+        Margins.Right = 20.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

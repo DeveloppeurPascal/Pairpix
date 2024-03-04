@@ -1,0 +1,51 @@
+object tplDialog: TtplDialog
+  Size.Width = 432.000000000000000000
+  Size.Height = 537.000000000000000000
+  Size.PlatformDefault = False
+  object imgFond: TGlyph
+    Align = Center
+    Size.Width = 400.000000000000000000
+    Size.Height = 483.000000000000000000
+    Size.PlatformDefault = False
+    ImageIndex = 1
+    Images = dmImgDecors.images
+    object zoneTexte: TVertScrollBox
+      Position.X = 48.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 337.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 305.000000000000000000
+      Viewport.Height = 337.000000000000000000
+    end
+    object zoneTitre: TLayout
+      Position.X = 40.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 321.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lblTitre: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 321.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claCornsilk
+        TextSettings.HorzAlign = Center
+        Text = 'lblTitre'
+        TabOrder = 0
+      end
+      inline MotsEnImages1: TMotsEnImages
+        Align = Center
+        HitTest = False
+        Size.Width = 320.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end
