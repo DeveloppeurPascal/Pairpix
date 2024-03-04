@@ -1,0 +1,4 @@
+- mise à niveau des projets en Delphi 11.3 Alexandria
+- publication d'une version Android-13 pour Google Play
+- mise à jour des filtres pour git
+- suppression du fichier de déploiement du dépôt

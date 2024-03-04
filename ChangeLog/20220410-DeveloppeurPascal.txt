@@ -1,0 +1,21 @@
+* recherche de nouveau nom suite à refus sur AppStore (Apple) pour marque déposée de Ravensburger en Allemagne
+* renommage de Memory en Pairpix dans les informations de version du projet
+* renommage de Memory en Pairpix dans les sources du projet
+* modification des crédits du jeu et ajout mention de DzHTMLText
+* modification de l'icone du jeu et regénération des images
+* modification des fichiers "manuels" dans Photoshop 
+* tests des différentes versions sur les plateformes ciblées (iOS, Android, Mac Intel, Mac ARM, Windows)
+* déploiement pour les différentes plateformes
+* ajout du paramètre ITSAppUsesNonExemptEncryption à No pour les informations de version de macOS
+*création fiche Pairpix sur Apple App Store et Mac App Store
+* soumission de la version macOS au Mac App Store => file d'attente de vérification
+* soumission de la version iOS à l'App Store => échec pour PNG d'icones avec alpha channel ou transparence
+* renommage du projet Memory en Pairpix sur itch.io
+* soumission des mises à jour des programmes avec le nouveau nom sur itch.io
+* création fiche Pairpix sur Google Play Store
+* soumission de la version Android mise à jour sur le Google Play Store
+* mise à jour des informations légales sur Gamolf.fr
+* mise à jour des informations de contact sur Gamolf.fr
+* création fiche Pairpix sur Ammazon Appstore
+* soumission de la version Android mise à jour sur Amazon Appstore
+* demande de suppression de "Memory" de l'appstore Amazon

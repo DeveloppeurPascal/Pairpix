@@ -1,0 +1,10 @@
+Mise à jour du 8 janvier 2024 :
+
+- mise à niveau du projet en Delphi 12 Athens
+- retrait du TMainMenu qui ne semble plus nécessaire sur macOS (bug du "fichier/quitter" en doublon)
+- désactivation de la barre de notification sur iOS
+- correction du problème d'affichage sous macOS Sonoma + écran 4K (pb bitmapscale réglé en D12)
+- appel de "init" des TTplDialog qui ne l'était pas
+- correction du positionnement dans le texte de l'écran des crédits du jeu (repart au début à chaque affichage)
+- réorganisation des unités dans les uses de la fiche principale
+- déploiement de la version 1.2 pour iOS et macOS

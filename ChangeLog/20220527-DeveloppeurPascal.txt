@@ -1,0 +1,5 @@
+- création visuels pour App Store (captures écran) => iPad
+- création visuels pour App Store (captures écran) => iPhone
+- mise à jour de la fiche App Store
+- soumission de l'application à Apple (App Store - iOS)
+

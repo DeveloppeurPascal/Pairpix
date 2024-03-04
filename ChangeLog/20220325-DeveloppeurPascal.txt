@@ -1,0 +1,19 @@
+(fichier rempli à partir du replay)
+
+- créationdu dépôt de code
+- reprise du template de jeu vidéo sur lequel j'ai travaillé lors de travets en train ces précédentes années
+- modification du composant "bouton" pour le rendre disponible pour toutes les plateformes
+- installation du packet de composants
+- reprise en main du template (pour voir comment il fonctionnait)
+- ajout du composant open source DzHTMLText et mise en place dans l'écran des crédits du jeu pour remplacer le TTMSWebBrowser que j'avais pris sur le template
+- gestion des clics sur les liens des crédits du jeu avec u_urlOpen.pas
+- remplacement du texte HTML par le format pris en charge par DzHTMLText
+- installation de FMXLinux dans l'IDE suite à une question du tchat Twitch et pour ajouter Linux comme cible de compilation au projet
+- codage d'une TFrame qui servira à gérer les cartes (affichage recto / verso, portrait / paysage, gestion des clics et du retournement)
+- mise en place de la mécanique du jeu avec la sélection aléatoire des paires d'images et l'affichage des cartes en fonction du nombre de colonnes et lignes désirées
+- listage des choses à faire pour la suite
+- archivage des fichiers sur mon dépôt de code local
+
+- points sur le Pascal, le fonctionnement de Delphi et comment se former suite à question du tchat
+
+- recherche et sélection des images utilisées pour les visuels des cartes sur Adobe Stock, découpages sur Illustrator et Photoshop

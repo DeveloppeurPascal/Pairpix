@@ -1,0 +1,18 @@
+- Configuration de l'IDE pour déploiement des projets (Outils / Options => renseignement des certificats de développement)
+- mise à jour TODO list
+- Sortir les TImageList des afficheurs en images (texte + nombres) afin de les placer dans un TDataModule et ne plus les importer à chaque création des TFrame concernées. Permet d'optimiser l'utilisation mémoire en fonctionnement et ne pas créer une multitude d'exemplaires de ces images.
+- Modification du module d'affichage graphique des mots afin d'éliminer les accents inconnus.
+- Titre "crédits" de son écran n'affiche plus l'accent en version images.
+- Augmenter la taille de la fonte utilisée dans l'écran "crédits". (géré par le composant d'affichage avec mise en forme)
+- Sur le composant "bouton", modifier le conditionnement du bouton Quitter. Ne l'activer que sur Windows, Mac et Linux, donc le désactiver sur iOS et Android. Mettre une erreur si la cible de compilation n'est pas l'un de ces systèmes d'exploitation.
+- Correction du bogue sur l'image capturée pour le partage social: seule la frame de l'écran était prise en compte. C'est désormais la fiche complète pour avoir le background.
+- Sur l'écran de fin de partie du challenge, ajouter un bouton de partage social de la capture d'écran du jeu + lien vers le téléchargement du jeu => disponible sur les palteformes qui le gèrent.
+- bidouillage d'une "icone moche" pour une première version
+- mettre à jour les icones et pages de lancement pour Windows 32 bits
+- mettre à jour les icones et pages de lancement pour Windows 64 bits
+- mettre à jour les icones et pages de lancement pour MacOS Intel
+- mettre à jour les icones et pages de lancement pour MacOS ARM
+- Déploiement du projet sur Windows 32 et 64 bits
+- Déploiement du projet sur Mac Intel
+- Déploiement du projet sur Mac ARM
+- création de la fiche du jeu et publication sur itch.io pour Windows et Mac => https://gamolf.itch.io/memory

@@ -1,0 +1,9 @@
+- génération des icones pour les plateformes mobiles du jeu (export PNG depuis PicMobGenerator)
+- mise en place des icones Memory et splashscreen Gamolf sur les différentes plateformes cibles du jeu depuis les options du projet dans Delphi
+- création d'images 512, 1024 et 2048 dans PhotoShop
+- création d'un bandeau de 1024x50 pour Google Play
+- création d'un certificat de signature pour Android
+- création de la fiche de l'application sur Google Play et soumission du programme.
+https://play.google.com/store/apps/details?id=fr.gamolf.memory
+- mise à jour TOOD list
+- mise à jour .gitignore (filtrage dossiers de compilation + _PRIVE)

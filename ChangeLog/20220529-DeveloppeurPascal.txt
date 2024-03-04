@@ -1,0 +1,4 @@
+- remplissage fiche Microsoft Store
+- paramétrage des infos de version dans Delphi pour la publication sur Microsoft Store
+- création visuels pour Microsoft Store
+- soumission du jeu au Microsoft Store

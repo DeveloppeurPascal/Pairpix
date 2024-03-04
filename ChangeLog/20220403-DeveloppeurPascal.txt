@@ -1,0 +1,20 @@
+- mise à jour TODO list
+- création ICNS depuis les outils Apple => plante depuis Xcode
+- création ICNS depuis icoFX (icofx.ro) => ok
+- refonte des splashscreen Gamolf pour iPhone / iPad (logo en transparence)
+
+- création fiche App Store / Mac App Store pour le jeu Memory
+- remplissage des informations de base pour le magasin d'applications d'Apple
+- création du binaire Intel+ARM à déployer pour le Mac App Store
+- soumission du binaire Mac universel à Mac App Store
+- création du binaire à déployer pour l'App Store
+- pas de soumission iOS car pas la possibilité de faire les captures d'écran dans les formats demandés par Apple
+
+- création fiche Amazon App Store pour le jeu Memory
+- remplissage de la fiche Amazon App Store
+- soumission d'un binaire Android 32 bits chez Amazon App Store
+
+- création du binaire Mac Intel à déployer pour le déploiement sur itch.io
+- mise à jour du ZIP Mac Intel sur itch.io
+- création du binaire Mac M1 à déployer pour le déploiement sur itch.io
+- mise à jour du ZIP Mac M1 sur itch.io

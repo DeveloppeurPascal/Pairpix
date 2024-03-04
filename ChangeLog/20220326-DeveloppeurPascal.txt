@@ -1,0 +1,19 @@
+- test du programme sur les différents périphériques
+- mise à jour du README
+- mise à jour de la TODO liste
+- augmenter le délai de masquage des deux cartes en cas d'erreur (finalement réduit pour rester jouable et réactif)
+- optimiser le tirage des cartes de départ (des boucles pouvant être sans fin)
+- ajout de 4 niveaux de jeu (facile, moyen, difficile, hard) définissant le nombre de cartes/paires à l'écran
+- gestion de tailles de cartes (et visuels) différentes selon les niveaux de jeux
+- définition du mode de fonctionnement du jeu standard (enchainement des écrans jusqu'à arrêt du joueur)
+- définition du mode de fonctionnement du jeu en challenge (enchainement des écrans jusqu'à fin du chrono)
+- Codage du mode de jeu classique effectué
+- Codage du mode de jeu challenge effectué
+- mise en place des pauses du jeu en mode normal comme challenge (touche ESCape, Hardware Back Android et bouton accueil)
+- ajout d'un module graphique d'affichage des chiffres / nombres
+- affichage du score avec mise en forme
+- affichage du chrono avec mise en forme
+- ajout d'un module graphique d'affichage des lettres / mots
+- en fin de niveau, afficher la dernière carte (ne pas dégager tout de suite) et afficher un "BRAVO" ou autre
+- correction d'un plantage (exception) en changement de niveau sur iOS et Android (pb de suppression des carts dans l'évènement clic de la dernière)
+- ajouter d'un écran de fin de partie lorsque le délai est écoulé lors d'un challenge

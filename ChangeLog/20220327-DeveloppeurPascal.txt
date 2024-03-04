@@ -1,0 +1,25 @@
+- mise à jour TODO
+- quand on sort d'un challenge, il faut dégager le "votre score" final car il n'est plus sur la zone de blocage mais sur la fiche principale.
+- mettre à jour les crédits du jeu
+- mettre à jour les infos de version pour Windows 32 bits
+- mettre à jour les infos de version pour Windows 64 bits
+- mettre à jour les infos de version pour Android 32 bits
+- mettre à jour les infos de version pour Android 64 bits
+- mettre à jour les infos de version pour MacOS Intel
+- mettre à jour les infos de version pour MacOS ARM
+- mettre à jour les infos de version pour iOS 64 bits
+- mettre à jour les infos de version pour Linux
+- ajout de ":" dans les caractères graphiques (absent de la fonte Adobe Stock utilisée)
+- ajout des minucules et signes de ponctuation au cadre affichant des textes
+- passage de "SCORE" à "Score:"
+- passage de "TEMPS" à "Temps:"
+- sur affichage des lettres en images, la largeur de chaque image est recalculée en fonction du ratio largeur/hauteur de l'image initiale
+- sur affichage des chiffres en images, la largeur de chaque image est recalculée en fonction du ratio largeur/hauteur de l'image initiale
+- en test, sur la page de fin de partie du mode challenge, si on clique sur la zone des cartes depuis iOS ou Android, on devrait déclencher l'interface de partage d'une capture de l'écran.
+- tester sur Windows
+- tester sur Mac
+- tester sur iOS
+- tester sur Android
+- masquage du bouton de menu "scores" qui n'a pas d'écran associé
+- masquage du bouton de menu "réglages" qui n'a pas d'écran associé
+- utilisation de la fonte graphique pour les titres dans la fenêtre de dialogue
