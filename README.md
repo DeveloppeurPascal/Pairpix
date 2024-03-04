@@ -1,35 +1,88 @@
-# Delphi-Projects-Template
+# Pairpix
 
 [Cette page en français.](LISEZMOI.md)
 
-**A git repository template for my Delphi (or other) projects.**
+Classic memory game with cards from which one must form pairs. This version uses animal drawings as patterns.
 
-**This template is distributed under the MIT license. The AGPL license is for the projects I create from this code repository template. Use whatever license you want if you use this template.**
+Two game modes are available: a classic one that scrolls through the screens, and a timed challenge to win a maximum of points.
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
-## Using this software
+## Download and use this game
 
-This software is available in a directly installable or executable production version. It is distributed as shareware.
+This software is available in a directly installable or executable production version.
 
-You can download and redistribute it free of charge, provided you do not modify its content (installer, program, additional files, etc.).
+[Itch.io (Windows)](https://gamolf.itch.io/pairpix)
 
-[Download program or installer](DDD)
+[Google Play Store (Android)](https://play.google.com/store/apps/details?id=fr.gamolf.pairpix)
 
-If you use this software regularly and are satisfied with it, you are invited to purchase an end-user license. Purchasing a license will give you access to software updates, as well as enabling optional features.
+[Amazon (Android)](https://www.amazon.com/gp/product/B09XLS7H45)
 
-[Buy a license](FFF)
+[App Store (iOS et macOS)](https://apps.apple.com/app/pairpix/id1618671148)
 
-You can also [visit the software website](EEE) to find out more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
+[Microsoft Store](https://www.microsoft.com/store/apps/9N6K4W1FQ16H)
+
+You can also [visit the software website](https://pairpix.gamolf.fr) to find out more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
+
+## How to play ?
+
+### Classic game mode
+
+Game mode with score calculation. The number of pairs on the screen may vary.
+
+A found pair earns 2 points.
+A mistake loses 1 point.
+Showing and hiding a card counts as an error.
+
+The end of one tableau moves on to the next, with no time countdown.
+
+### Challenge mode
+
+Game mode with score calculation. The number of pairs on the screen can vary.
+The aim is to achieve the highest score within 1 minute.
+
+A found pair earns 2 points for the number of seconds remaining.
+An error results in a loss of 1 point for the number of seconds remaining.
+Showing and then hiding a card counts as an error.
+
+The end of a tableau moves on to the next tableau within the time limit.
 
 ## Source code installation
 
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/Pairpix).
 
 This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
 
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
+Some formatted text is displayed using the [Delphi HTML Components](https://delphihtmlcomponents.com/) library. A license for this library is required if you wish to recompile the project as is.
+
+## Development notes
+
+- 4 to 16 mixed pairs on screen
+- progressive levels
+- images from device library or list (inApp on some)
+
+Screens :
+- home
+- game
+- end of level
+- end of game
+- scores
+- options (with choice of photo series)
+- credits
+
+Options :
+- music on/off + volume
+- sound effects on/off + volume
+- list of photo series available for purchase/download
+
+Home menu :
+- play
+- challenge
+- scores
+- credits
+- options
+
+home 0/1/2, credits 3/4/5, scores 6/7/8, play 9/10/11, options 12/13/14, leave 15/16/17, break 18/19/20
 
 ## License to use this code repository and its contents
 
@@ -48,7 +101,7 @@ Certain elements included in this repository may be subject to third-party usage
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Pairpix) and [open a new issue](https://github.com/DeveloppeurPascal/Pairpix/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 

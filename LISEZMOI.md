@@ -1,35 +1,88 @@
-# Delphi-Projects-Template
+# Pairpix
 
 [This page in english.](README.md)
 
-**Un modèle de dépôt git pour mes projets Delphi (ou autres).**
+Jeu de mémoire classique avec des cartes à partir desquelles on doit former des paires. Cette version utilise des dessins d'animaux comme motifs.
 
-**Ce template est distribué sous licence MIT. La licence AGPL est pour les projets que je crée à partir de ce template de dépôt de code. Utilisez la licence que vous voulez si vous utilisez ce template.**
+Deux modes de jeu sont disponibles : un classique qui fait défiler les écrans, un challenge chronométré pour gagner un max de points.
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
-## Utiliser ce logiciel
+## Télécharger et utiliser ce jeu vidéo
 
-Ce logiciel est disponible dans une version de production directement installable ou exécutable. Il est distribué en shareware.
+Ce logiciel est disponible dans une version de production directement installable ou exécutable.
 
-Vous pouvez le télécharger et le rediffuser gratuitement à condition de ne pas en modifier le contenu (installeur, programme, fichiers annexes, ...).
+[Itch.io (Windows)](https://gamolf.itch.io/pairpix)
 
-[Télécharger le programme ou son installeur](DDD)
+[Google Play Store (Android)](https://play.google.com/store/apps/details?id=fr.gamolf.pairpix)
 
-Si vous utilisez régulièrement ce logiciel et en êtes satisfait vous êtes invité à en acheter une licence d'utilisateur final. L'achat d'une licence vous donnera accès aux mises à jour du logiciel en plus d'activer d'évenuelles fonctionnalités optionnelles.
+[Amazon (Android)](https://www.amazon.com/gp/product/B09XLS7H45)
 
-[Acheter une licence](FFF)
+[App Store (iOS et macOS)](https://apps.apple.com/app/pairpix/id1618671148)
 
-Vous pouvez aussi [consulter le site du logiciel](EEE) pour en savoir plus sur son fonctionnement, accéder à des vidéos et articles, connaître les différentes versions disponibles et leurs fonctionnalités, contacter le support utilisateurs...
+[Microsoft Store](https://www.microsoft.com/store/apps/9N6K4W1FQ16H)
+
+Vous pouvez aussi [consulter le site du logiciel](https://pairpix.gamolf.fr) pour en savoir plus sur son fonctionnement, accéder à des vidéos et articles, connaître les différentes versions disponibles et leurs fonctionnalités, contacter le support utilisateurs...
+
+## Comment jouer ?
+
+### Mode de jeu classique
+
+Mode de jeu avec un calcul du score. Le nombre de paires à l'écran peut varier.
+
+Un paire trouvée rapporte 2 points.
+Une erreur fait perdre 1 point.
+Le fait d'afficher puis masquer une carte compte comme une erreur.
+
+La fin d'un tableau passe au tableau suivant, sans décompte de temps.
+
+### Mode de jeu challenge
+
+Mode de jeu avec un calcul du score. Le nombre de paires à l'écran peut varier.
+On doit obtenir le plus grand score en 1 minute.
+
+Un paire trouvée rapporte 2 points par le nombre de secondes restantes.
+Une erreur fait perdre 1 point par le nombre de secondes restantes.
+Le fait d'afficher puis masquer une carte compte comme une erreur.
+
+La fin d'un tableau passe au tableau suivant dans la limite du délai imparti.
 
 ## Installation des codes sources
 
-Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/Pairpix).
 
 Ce projet utilise des dépendances sous forme de sous modules. Ils seront absents du fichier ZIP. Vous devrez les télécharger à la main.
 
-* [YYY](ZZZ) doit être installé dans le sous dossier ./lib-externes/YYY
-* [YYY](ZZZ) doit être installé dans le sous dossier ./lib-externes/YYY
+L'affichage de certains textes mis en forme se fait à l'aide de la librarie [Delphi HTML Components](https://delphihtmlcomponents.com/). Une licence de cette librairie est nécessaire si vous désirez recompiler le projet tel quel.
+
+## Notes de développement
+
+- 4 à 16 paires mélangées à l'écran
+- niveaux progressifs
+- images à piocher dans la bibliothèque du périphérique ou sur une liste (inApp sur certaines)
+
+Ecrans :
+- accueil
+- jeu
+- fin de niveau
+- fin de partie
+- scores
+- options (avec choix des séries de photos)
+- crédits
+
+Options :
+- musique on/off + volume
+- bruitages on/off + volume
+- liste des séries de photos disponibles et achat/téléchargement possible
+
+Menu accueil :
+- jouer
+- challenge
+- scores
+- crédits
+- options
+
+accueil 0/1/2, credits 3/4/5, scores 6/7/8, jeu 9/10/11, options 12/13/14, quitter 15/16/17, pause 18/19/20
 
 ## Licence d'utilisation de ce dépôt de code et de son contenu
 
@@ -48,7 +101,7 @@ Certains éléments inclus dans ce dépôt peuvent dépendre de droits d'utilisa
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/Pairpix) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/Pairpix/issues).
 
 Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
 
