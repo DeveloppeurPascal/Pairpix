@@ -8,6 +8,12 @@ Two game modes are available: a classic one that scrolls through the screens, an
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
+## Talks and conferences
+
+### Twitch
+
+Follow my development streams of software, video games, mobile applications and websites on [my Twitch channel](https://www.twitch.tv/patrickpremartin) or as replays on [Serial Streameur](https://serialstreameur.fr/jv-pairpix.php) mostly in French.
+
 ## Download and use this game
 
 This software is available in a directly installable or executable production version.
@@ -47,14 +53,6 @@ Showing and then hiding a card counts as an error.
 
 The end of a tableau moves on to the next tableau within the time limit.
 
-## Source code installation
-
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/Pairpix).
-
-This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
-
-Some formatted text is displayed using the [Delphi HTML Components](https://delphihtmlcomponents.com/) library. A license for this library is required if you wish to recompile the project as is.
-
 ## Development notes
 
 - 4 to 16 mixed pairs on screen
@@ -83,6 +81,26 @@ Home menu :
 - options
 
 home 0/1/2, credits 3/4/5, scores 6/7/8, play 9/10/11, options 12/13/14, leave 15/16/17, break 18/19/20
+
+## Source code installation
+
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/Pairpix).
+
+This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
+
+* no submodule
+
+Some formatted text is displayed using the [Delphi HTML Components](https://delphihtmlcomponents.com/) library. A license for this library is required if you wish to recompile the project as is.
+
+## Compatibility
+
+As an [Embarcadero MVP](https://www.embarcadero.com/resources/partners/mvp-directory), I benefit from the latest versions of [Delphi](https://www.embarcadero.com/products/delphi) and [C++ Builder](https://www.embarcadero.com/products/cbuilder) in [RAD Studio](https://www.embarcadero.com/products/rad-studio) as soon as they are released. I therefore work with these versions.
+
+Normally, my libraries and components should also run on at least the current version of [Delphi Community Edition](https://www.embarcadero.com/products/delphi/starter).
+
+There's no guarantee of compatibility with earlier versions, even though I try to keep my code clean and avoid using too many of the new ways of writing in it (type inference, inline var and multiline strings).
+
+If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://github.com/DeveloppeurPascal/Pairpix/issues) so that I can test and try to correct or provide a workaround.
 
 ## License to use this code repository and its contents
 
