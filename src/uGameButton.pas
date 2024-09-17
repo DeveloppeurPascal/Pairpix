@@ -3,8 +3,13 @@ unit uGameButton;
 interface
 
 uses
-  System.SysUtils, System.Classes, FMX.Types, FMX.Controls, FMX.Imglist,
-  FMX.StdCtrls;
+  System.SysUtils,
+  System.Classes,
+  FMX.Types,
+  FMX.Controls,
+  FMX.Imglist,
+  FMX.StdCtrls,
+  FMX.Objects;
 
 type
 {$SCOPEDENUMS on}
@@ -17,7 +22,7 @@ type
   private
     { Déclarations privées }
     FImgButton: TGlyph;
-    FTxtButton: TLabel;
+    FTxtButton: TText;
     FKind: TGameButtonKind;
     FEnabled: boolean;
     FTextVisible: boolean;
@@ -54,7 +59,9 @@ procedure Register;
 
 implementation
 
-uses uDmImgMemoryComponents, System.UITypes;
+uses
+  uDmImgMemoryComponents,
+  System.UITypes;
 
 procedure Register;
 begin
@@ -92,7 +99,7 @@ begin
   FImgButton.Align := talignlayout.Left;
   FImgButton.Locked := false;
 
-  FTxtButton := TLabel.Create(Self);
+  FTxtButton := TText.Create(Self);
   FTxtButton.Stored := false;
   FTxtButton.parent := Self;
   FTxtButton.Name := Name + 'Text';
@@ -102,7 +109,7 @@ begin
   FTxtButton.TextSettings.HorzAlign := ttextalign.Leading;
   FTxtButton.TextSettings.VertAlign := ttextalign.Center;
   FTxtButton.TextSettings.Font.Size := 30;
-  FTxtButton.TextSettings.Fontcolor := talphacolors.cornsilk;
+  FTxtButton.TextSettings.Fontcolor := talphacolors.black;//talphacolors.cornsilk;
   FTxtButton.Visible := FTextVisible;
   FTxtButton.HitTest := false;
   FTxtButton.Locked := false;
