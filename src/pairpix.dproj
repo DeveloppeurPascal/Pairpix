@@ -195,10 +195,10 @@
         <Android_LauncherIcon72>..\assets\icones\pairpix-72x72.png</Android_LauncherIcon72>
         <Android_LauncherIcon96>..\assets\icones\pairpix-96x96.png</Android_LauncherIcon96>
         <Android_LauncherIcon144>..\assets\icones\pairpix-144x144.png</Android_LauncherIcon144>
-        <Android_SplashImage426>\\nasbox01\gamolf\_design\426x320.png</Android_SplashImage426>
-        <Android_SplashImage470>\\nasbox01\gamolf\_design\470x320.png</Android_SplashImage470>
-        <Android_SplashImage640>\\nasbox01\gamolf\_design\640x480.png</Android_SplashImage640>
-        <Android_SplashImage960>\\nasbox01\gamolf\_design\960x720.png</Android_SplashImage960>
+        <Android_SplashImage426>..\assets\icones\pairpix-426x320.png</Android_SplashImage426>
+        <Android_SplashImage470>..\assets\icones\pairpix-470x320.png</Android_SplashImage470>
+        <Android_SplashImage640>..\assets\icones\pairpix-640x480.png</Android_SplashImage640>
+        <Android_SplashImage960>..\assets\icones\pairpix-960x720.png</Android_SplashImage960>
         <EnabledSysJars>activity-1.7.2.dex.jar;annotation-experimental-1.4.1.dex.jar;annotation-jvm-1.8.1.dex.jar;annotations-13.0.dex.jar;appcompat-1.2.0.dex.jar;appcompat-resources-1.2.0.dex.jar;billing-7.1.1.dex.jar;biometric-1.1.0.dex.jar;browser-1.4.0.dex.jar;cloud-messaging.dex.jar;collection-jvm-1.4.2.dex.jar;concurrent-futures-1.1.0.dex.jar;core-1.15.0.dex.jar;core-common-2.2.0.dex.jar;core-ktx-1.15.0.dex.jar;core-runtime-2.2.0.dex.jar;cursoradapter-1.0.0.dex.jar;customview-1.0.0.dex.jar;documentfile-1.0.0.dex.jar;drawerlayout-1.0.0.dex.jar;error_prone_annotations-2.9.0.dex.jar;exifinterface-1.3.6.dex.jar;firebase-annotations-16.2.0.dex.jar;firebase-common-20.3.1.dex.jar;firebase-components-17.1.0.dex.jar;firebase-datatransport-18.1.7.dex.jar;firebase-encoders-17.0.0.dex.jar;firebase-encoders-json-18.0.0.dex.jar;firebase-encoders-proto-16.0.0.dex.jar;firebase-iid-interop-17.1.0.dex.jar;firebase-installations-17.1.3.dex.jar;firebase-installations-interop-17.1.0.dex.jar;firebase-measurement-connector-19.0.0.dex.jar;firebase-messaging-23.1.2.dex.jar;fmx.dex.jar;fragment-1.2.5.dex.jar;google-play-licensing.dex.jar;interpolator-1.0.0.dex.jar;javax.inject-1.dex.jar;kotlin-stdlib-1.8.22.dex.jar;kotlin-stdlib-common-1.8.22.dex.jar;kotlin-stdlib-jdk7-1.8.22.dex.jar;kotlin-stdlib-jdk8-1.8.22.dex.jar;kotlinx-coroutines-android-1.6.4.dex.jar;kotlinx-coroutines-core-jvm-1.6.4.dex.jar;legacy-support-core-utils-1.0.0.dex.jar;lifecycle-common-2.6.2.dex.jar;lifecycle-livedata-2.6.2.dex.jar;lifecycle-livedata-core-2.6.2.dex.jar;lifecycle-runtime-2.6.2.dex.jar;lifecycle-service-2.6.2.dex.jar;lifecycle-viewmodel-2.6.2.dex.jar;lifecycle-viewmodel-savedstate-2.6.2.dex.jar;listenablefuture-1.0.dex.jar;loader-1.0.0.dex.jar;localbroadcastmanager-1.0.0.dex.jar;okio-jvm-3.4.0.dex.jar;play-services-ads-22.2.0.dex.jar;play-services-ads-base-22.2.0.dex.jar;play-services-ads-identifier-18.0.0.dex.jar;play-services-ads-lite-22.2.0.dex.jar;play-services-appset-16.0.1.dex.jar;play-services-base-18.5.0.dex.jar;play-services-basement-18.4.0.dex.jar;play-services-cloud-messaging-17.0.1.dex.jar;play-services-location-21.0.1.dex.jar;play-services-maps-18.1.0.dex.jar;play-services-measurement-base-20.1.2.dex.jar;play-services-measurement-sdk-api-20.1.2.dex.jar;play-services-stats-17.0.2.dex.jar;play-services-tasks-18.2.0.dex.jar;print-1.0.0.dex.jar;profileinstaller-1.3.0.dex.jar;room-common-2.2.5.dex.jar;room-runtime-2.2.5.dex.jar;savedstate-1.2.1.dex.jar;sqlite-2.1.0.dex.jar;sqlite-framework-2.1.0.dex.jar;startup-runtime-1.1.1.dex.jar;tracing-1.2.0.dex.jar;transport-api-3.0.0.dex.jar;transport-backend-cct-3.1.8.dex.jar;transport-runtime-3.1.8.dex.jar;user-messaging-platform-2.0.0.dex.jar;vectordrawable-1.1.0.dex.jar;vectordrawable-animated-1.1.0.dex.jar;versionedparcelable-1.1.1.dex.jar;viewpager-1.0.0.dex.jar;work-runtime-2.7.0.dex.jar</EnabledSysJars>
         <Android_NotificationIcon24>..\assets\icones\pairpix-24x24.png</Android_NotificationIcon24>
         <Android_NotificationIcon36>..\assets\icones\pairpix-36x36.png</Android_NotificationIcon36>
@@ -223,6 +223,9 @@
         <PF_KeyStorePass>857D47CB5F9F078CCF76E526A45F7BF1E44008467EB7ECBB9F517765D800A8B6A5BE5D117F7EE22A8762C8E00A5367DE1427B8478D987E658CEFA08F78628605DCE2ADCCD546FA93BFE1AF3F07581D50924D3E441DBF096BE3BE16B0443178C3659D9A8522A87D08465EE80D9205F3F8965FE9F0DE4FC05CB366C2B7A76956B4E83A5312</PF_KeyStorePass>
         <PF_AliasKey>memory</PF_AliasKey>
         <PF_AliasKeyPass>853C47CF5F900793CF25E53EA4567BF1E41308587EB9ECAF9F1D7768D808A8B4A5B85D4E7F75E26C8777C8F00A1067CC1478B81E8DD97E678CF0A084787E8605DCE5ADCD0B571AC6A681DF7A3A3F3AD192033E1B1DE00917E3B616EB4475788F65DB9AD622A37D014678E86F9257F3F89645E9E9DE23C063B306C2AAA73656A0E878530353225FBC34F9FF34AFE39124</PF_AliasKeyPass>
+        <IncludeAndroid_Splash>false</IncludeAndroid_Splash>
+        <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
+        <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Android64)'!=''">
         <VerInfo_Keys>package=fr.gamolf.pairpix;label=$(MSBuildProjectName);versionCode=1;versionName=1.0.0;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=Aucune barre de titre;hardwareAccelerated=true;apiKey=;minSdkVersion=23;targetSdkVersion=35</VerInfo_Keys>
@@ -237,10 +240,10 @@
         <Android_LauncherIcon72>..\assets\icones\pairpix-72x72.png</Android_LauncherIcon72>
         <Android_LauncherIcon96>..\assets\icones\pairpix-96x96.png</Android_LauncherIcon96>
         <Android_LauncherIcon144>..\assets\icones\pairpix-144x144.png</Android_LauncherIcon144>
-        <Android_SplashImage426>\\nasbox01\gamolf\_design\426x320.png</Android_SplashImage426>
-        <Android_SplashImage470>\\nasbox01\gamolf\_design\470x320.png</Android_SplashImage470>
-        <Android_SplashImage640>\\nasbox01\gamolf\_design\640x480.png</Android_SplashImage640>
-        <Android_SplashImage960>\\nasbox01\gamolf\_design\960x720.png</Android_SplashImage960>
+        <Android_SplashImage426>..\assets\icones\pairpix-426x320.png</Android_SplashImage426>
+        <Android_SplashImage470>..\assets\icones\pairpix-470x320.png</Android_SplashImage470>
+        <Android_SplashImage640>..\assets\icones\pairpix-640x480.png</Android_SplashImage640>
+        <Android_SplashImage960>..\assets\icones\pairpix-960x720.png</Android_SplashImage960>
         <EnabledSysJars>activity-1.7.2.dex.jar;annotation-experimental-1.4.1.dex.jar;annotation-jvm-1.8.1.dex.jar;annotations-13.0.dex.jar;appcompat-1.2.0.dex.jar;appcompat-resources-1.2.0.dex.jar;billing-7.1.1.dex.jar;biometric-1.1.0.dex.jar;browser-1.4.0.dex.jar;cloud-messaging.dex.jar;collection-jvm-1.4.2.dex.jar;concurrent-futures-1.1.0.dex.jar;core-1.15.0.dex.jar;core-common-2.2.0.dex.jar;core-ktx-1.15.0.dex.jar;core-runtime-2.2.0.dex.jar;cursoradapter-1.0.0.dex.jar;customview-1.0.0.dex.jar;documentfile-1.0.0.dex.jar;drawerlayout-1.0.0.dex.jar;error_prone_annotations-2.9.0.dex.jar;exifinterface-1.3.6.dex.jar;firebase-annotations-16.2.0.dex.jar;firebase-common-20.3.1.dex.jar;firebase-components-17.1.0.dex.jar;firebase-datatransport-18.1.7.dex.jar;firebase-encoders-17.0.0.dex.jar;firebase-encoders-json-18.0.0.dex.jar;firebase-encoders-proto-16.0.0.dex.jar;firebase-iid-interop-17.1.0.dex.jar;firebase-installations-17.1.3.dex.jar;firebase-installations-interop-17.1.0.dex.jar;firebase-measurement-connector-19.0.0.dex.jar;firebase-messaging-23.1.2.dex.jar;fmx.dex.jar;fragment-1.2.5.dex.jar;google-play-licensing.dex.jar;interpolator-1.0.0.dex.jar;javax.inject-1.dex.jar;kotlin-stdlib-1.8.22.dex.jar;kotlin-stdlib-common-1.8.22.dex.jar;kotlin-stdlib-jdk7-1.8.22.dex.jar;kotlin-stdlib-jdk8-1.8.22.dex.jar;kotlinx-coroutines-android-1.6.4.dex.jar;kotlinx-coroutines-core-jvm-1.6.4.dex.jar;legacy-support-core-utils-1.0.0.dex.jar;lifecycle-common-2.6.2.dex.jar;lifecycle-livedata-2.6.2.dex.jar;lifecycle-livedata-core-2.6.2.dex.jar;lifecycle-runtime-2.6.2.dex.jar;lifecycle-service-2.6.2.dex.jar;lifecycle-viewmodel-2.6.2.dex.jar;lifecycle-viewmodel-savedstate-2.6.2.dex.jar;listenablefuture-1.0.dex.jar;loader-1.0.0.dex.jar;localbroadcastmanager-1.0.0.dex.jar;okio-jvm-3.4.0.dex.jar;play-services-ads-22.2.0.dex.jar;play-services-ads-base-22.2.0.dex.jar;play-services-ads-identifier-18.0.0.dex.jar;play-services-ads-lite-22.2.0.dex.jar;play-services-appset-16.0.1.dex.jar;play-services-base-18.5.0.dex.jar;play-services-basement-18.4.0.dex.jar;play-services-cloud-messaging-17.0.1.dex.jar;play-services-location-21.0.1.dex.jar;play-services-maps-18.1.0.dex.jar;play-services-measurement-base-20.1.2.dex.jar;play-services-measurement-sdk-api-20.1.2.dex.jar;play-services-stats-17.0.2.dex.jar;play-services-tasks-18.2.0.dex.jar;print-1.0.0.dex.jar;profileinstaller-1.3.0.dex.jar;room-common-2.2.5.dex.jar;room-runtime-2.2.5.dex.jar;savedstate-1.2.1.dex.jar;sqlite-2.1.0.dex.jar;sqlite-framework-2.1.0.dex.jar;startup-runtime-1.1.1.dex.jar;tracing-1.2.0.dex.jar;transport-api-3.0.0.dex.jar;transport-backend-cct-3.1.8.dex.jar;transport-runtime-3.1.8.dex.jar;user-messaging-platform-2.0.0.dex.jar;vectordrawable-1.1.0.dex.jar;vectordrawable-animated-1.1.0.dex.jar;versionedparcelable-1.1.1.dex.jar;viewpager-1.0.0.dex.jar;work-runtime-2.7.0.dex.jar</EnabledSysJars>
         <Android_LauncherIcon192>..\assets\icones\pairpix-192x192.png</Android_LauncherIcon192>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
@@ -265,6 +268,9 @@
         <PF_KeyStorePass>857D47CB5F9F078CCF76E526A45F7BF1E44008467EB7ECBB9F517765D800A8B6A5BE5D117F7EE22A8762C8E00A5367DE1427B8478D987E658CEFA08F78628605DCE2ADCCD546FA93BFE1AF3F07581D50924D3E441DBF096BE3BE16B0443178C3659D9A8522A87D08465EE80D9205F3F8965FE9F0DE4FC05CB366C2B7A76956B4E83A5312</PF_KeyStorePass>
         <PF_AliasKey>memory</PF_AliasKey>
         <PF_AliasKeyPass>853C47CF5F900793CF25E53EA4567BF1E41308587EB9ECAF9F1D7768D808A8B4A5B85D4E7F75E26C8777C8F00A1067CC1478B81E8DD97E678CF0A084787E8605DCE5ADCD0B571AC6A681DF7A3A3F3AD192033E1B1DE00917E3B616EB4475788F65DB9AD622A37D014678E86F9257F3F89645E9E9DE23C063B306C2AAA73656A0E878530353225FBC34F9FF34AFE39124</PF_AliasKeyPass>
+        <IncludeAndroid_Splash>false</IncludeAndroid_Splash>
+        <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
+        <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_iOSDevice64)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;fmxase;DBXInterBaseDriver;OpenWireBindingPkg;tethering;OpenWireBindingFmxPkg;CommunicationLabBasicPkg;bindcompfmx;Mitov_FMX_BasicLab;FmxTeeUI;fmx;RadiantShapesFmx;FireDACDBXDriver;dbexpress;IndyCore;dsnap;DataSnapCommon;TimingLabBasicPkg;bindengine;CommunicationLabPkg;Mitov_BasicLab;DataSnapClient;IndyIPCommon;bindcompdbx;OpenWirePkg;IndyIPServer;IndySystem;fmxFireDAC;TMSFMXCloudPackPkgDXE11;Mitov_Runtime;TMSFMXWebGMapsPkgDXE11;TMSLoggingPkgCoreDXE11;ibmonitor;TMSLoggingPkgFMXDXE11;FMXTee;DbxCommonDriver;OpenWireBindingDatabasePkg;ibxpress;xmlrtl;DataSnapNativeClient;FireDACDSDriver;rtl;ibxbindings;DbxClientDriver;TMSFMXChartPkgDXE11;CustomIPTransport;SignalLabBasicPkg;SignalLabAdditionalPkg;bindcomp;IndyIPClient;TMSFMXPackPkgDXE11;dbxcds;SignalLabGenericBasicPkg;dsnapxml;DataSnapProviderClient;dbrtl;IndyProtocols;$(DCC_UsePackage)</DCC_UsePackage>
@@ -282,12 +288,12 @@
         <iPhone_Spotlight120>..\assets\icones\pairpix-120x120.png</iPhone_Spotlight120>
         <iPad_AppIcon83_5>$(BDS)\bin\Artwork\iOS\iPad\FM_ApplicationIcon_83.5x83.5.png</iPad_AppIcon83_5>
         <iPad_AppIcon167>..\assets\icones\pairpix-167x167.png</iPad_AppIcon167>
-        <iPhone_Launch2x>\\nasbox01\gamolf\_design\229x396.png</iPhone_Launch2x>
-        <iPhone_LaunchDark2x>\\nasbox01\gamolf\_design\229x396.png</iPhone_LaunchDark2x>
-        <iPhone_Launch3x>\\nasbox01\gamolf\_design\344x594.png</iPhone_Launch3x>
-        <iPhone_LaunchDark3x>\\nasbox01\gamolf\_design\344x594.png</iPhone_LaunchDark3x>
-        <iPad_Launch2x>\\nasbox01\gamolf\_design\458x792.png</iPad_Launch2x>
-        <iPad_LaunchDark2x>\\nasbox01\gamolf\_design\458x792.png</iPad_LaunchDark2x>
+        <iPhone_Launch2x>..\assets\icones\pairpix-230x384.png</iPhone_Launch2x>
+        <iPhone_LaunchDark2x>..\assets\icones\pairpix-230x384.png</iPhone_LaunchDark2x>
+        <iPhone_Launch3x>..\assets\icones\pairpix-344x576.png</iPhone_Launch3x>
+        <iPhone_LaunchDark3x>..\assets\icones\pairpix-344x576.png</iPhone_LaunchDark3x>
+        <iPad_Launch2x>..\assets\icones\pairpix-415x694.png</iPad_Launch2x>
+        <iPad_LaunchDark2x>..\assets\icones\pairpix-415x694.png</iPad_LaunchDark2x>
         <iOS_AppStore1024>..\assets\icones\pairpix-1024x1024.png</iOS_AppStore1024>
         <iPhone_Notification60>..\assets\icones\pairpix-60x60.png</iPhone_Notification60>
         <iPhone_Setting87>..\assets\icones\pairpix-87x87.png</iPhone_Setting87>
@@ -312,12 +318,12 @@
         <iPhone_Spotlight120>..\assets\icones\pairpix-120x120.png</iPhone_Spotlight120>
         <iPad_AppIcon83_5>$(BDS)\bin\Artwork\iOS\iPad\FM_ApplicationIcon_83.5x83.5.png</iPad_AppIcon83_5>
         <iPad_AppIcon167>..\assets\icones\pairpix-167x167.png</iPad_AppIcon167>
-        <iPhone_Launch2x>\\nasbox01\gamolf\_design\229x396.png</iPhone_Launch2x>
-        <iPhone_LaunchDark2x>\\nasbox01\gamolf\_design\229x396.png</iPhone_LaunchDark2x>
-        <iPhone_Launch3x>\\nasbox01\gamolf\_design\344x594.png</iPhone_Launch3x>
-        <iPhone_LaunchDark3x>\\nasbox01\gamolf\_design\344x594.png</iPhone_LaunchDark3x>
-        <iPad_Launch2x>\\nasbox01\gamolf\_design\458x792.png</iPad_Launch2x>
-        <iPad_LaunchDark2x>\\nasbox01\gamolf\_design\458x792.png</iPad_LaunchDark2x>
+        <iPhone_Launch2x>..\assets\icones\pairpix-229x396.png</iPhone_Launch2x>
+        <iPhone_LaunchDark2x>..\assets\icones\pairpix-229x396.png</iPhone_LaunchDark2x>
+        <iPhone_Launch3x>..\assets\icones\pairpix-344x594.png</iPhone_Launch3x>
+        <iPhone_LaunchDark3x>..\assets\icones\pairpix-344x594.png</iPhone_LaunchDark3x>
+        <iPad_Launch2x>..\assets\icones\pairpix-458x792.png</iPad_Launch2x>
+        <iPad_LaunchDark2x>..\assets\icones\pairpix-458x792.png</iPad_LaunchDark2x>
         <iOS_AppStore1024>..\assets\icones\pairpix-1024x1024.png</iOS_AppStore1024>
         <iPhone_Notification60>..\assets\icones\pairpix-60x60.png</iPhone_Notification60>
         <iPhone_Setting87>..\assets\icones\pairpix-87x87.png</iPhone_Setting87>
@@ -394,12 +400,17 @@
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <VerInfo_Build>1</VerInfo_Build>
         <VerInfo_Keys>package=fr.gamolf.memory.dev;label=dev $(MSBuildProjectName);versionCode=1;versionName=1.0.0;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=Aucune barre de titre;hardwareAccelerated=true;apiKey=;minSdkVersion=23;targetSdkVersion=35</VerInfo_Keys>
+        <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
+        <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
+        <IncludeAndroid_Splash>false</IncludeAndroid_Splash>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Android64)'!=''">
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <VerInfo_Build>1</VerInfo_Build>
         <VerInfo_Keys>package=fr.gamolf.memory.dev;label=dev $(MSBuildProjectName);versionCode=1;versionName=1.0.0;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=Aucune barre de titre;hardwareAccelerated=true;apiKey=;minSdkVersion=23;targetSdkVersion=35</VerInfo_Keys>
-        <BT_BuildType>AppStore</BT_BuildType>
+        <IncludeAndroid_Splash>false</IncludeAndroid_Splash>
+        <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
+        <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_iOSDevice64)'!=''">
         <VerInfo_Build>3</VerInfo_Build>
@@ -475,6 +486,7 @@
         <Android_SplashImage960>..\assets\icones\pairpix-960x720.png</Android_SplashImage960>
         <Android_SplashTileMode>disabled</Android_SplashTileMode>
         <Android_SplashGravity>center</Android_SplashGravity>
+        <IncludeAndroid_Splash>false</IncludeAndroid_Splash>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Android64)'!=''">
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
@@ -490,6 +502,7 @@
         <Android_SplashImage960>..\assets\icones\pairpix-960x720.png</Android_SplashImage960>
         <Android_SplashTileMode>disabled</Android_SplashTileMode>
         <Android_SplashGravity>center</Android_SplashGravity>
+        <IncludeAndroid_Splash>false</IncludeAndroid_Splash>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_iOSDevice64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
@@ -503,12 +516,6 @@
         <iOS_DarkBackgroundColor>FFE6ECF1</iOS_DarkBackgroundColor>
         <VerInfo_MinorVer>4</VerInfo_MinorVer>
         <IOSTransportSecFeat>false</IOSTransportSecFeat>
-        <iPhone_Launch2x>..\assets\icones\pairpix-230x384.png</iPhone_Launch2x>
-        <iPhone_LaunchDark2x>..\assets\icones\pairpix-230x384.png</iPhone_LaunchDark2x>
-        <iPhone_Launch3x>..\assets\icones\pairpix-344x576.png</iPhone_Launch3x>
-        <iPhone_LaunchDark3x>..\assets\icones\pairpix-344x576.png</iPhone_LaunchDark3x>
-        <iPad_Launch2x>..\assets\icones\pairpix-415x694.png</iPad_Launch2x>
-        <iPad_LaunchDark2x>..\assets\icones\pairpix-415x694.png</iPad_LaunchDark2x>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_iOSSimARM64)'!=''">
         <Cfg_2>true</Cfg_2>
@@ -715,9 +722,39 @@
                 <DeployFile LocalName="$(BDS)\Redist\osx64\libcgsqlite3.dylib" Class="DependencyModule"/>
                 <DeployFile LocalName="$(BDS)\bin\delphi_PROJECTICNS.icns" Configuration="Debug" Class="ProjectOSXResource"/>
                 <DeployFile LocalName="$(BDS)\lib\android\debug\armeabi-v7a\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeArmeabiv7aFile"/>
+                <DeployFile LocalName="$(BDS)\lib\android\debug\armeabi-v7a\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeArmeabiv7aFile">
+                    <Platform Name="Android64">
+                        <RemoteName>libpairpix.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\lib\android\debug\armeabi\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeArmeabiFile"/>
+                <DeployFile LocalName="$(BDS)\lib\android\debug\armeabi\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeArmeabiFile">
+                    <Platform Name="Android">
+                        <RemoteName>libpairpix.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="$(BDS)\lib\android\debug\armeabi\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeArmeabiFile">
+                    <Platform Name="Android64">
+                        <RemoteName>libpairpix.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\lib\android\debug\armeabi\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeArmeabiFile"/>
                 <DeployFile LocalName="$(BDS)\lib\android\debug\mips\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeMipsFile"/>
+                <DeployFile LocalName="$(BDS)\lib\android\debug\mips\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeMipsFile">
+                    <Platform Name="Android">
+                        <RemoteName>libpairpix.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="$(BDS)\lib\android\debug\mips\libnative-activity.so" Configuration="Debug" Class="AndroidLibnativeMipsFile">
+                    <Platform Name="Android64">
+                        <RemoteName>libpairpix.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\lib\android\debug\mips\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeMipsFile"/>
                 <DeployFile LocalName="$(BDS)\lib\android\release\armeabi\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeArmeabiFile"/>
                 <DeployFile LocalName="$(BDS)\lib\android\release\armeabi\libnative-activity.so" Configuration="Release" Class="AndroidLibnativeArmeabiFile">
@@ -735,6 +772,11 @@
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-1024x1024-PhotoShop.png" Configuration="Debug" Class="iOS_AppStore1024"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-1024x1024.png" Configuration="Debug" Class="iOS_AppStore1024"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-1024x1024.png" Configuration="Debug" Class="iOS_AppStore1024">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-1024x1024.png" Configuration="Release" Class="iOS_AppStore1024"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-1024x1024.png" Configuration="Release" Class="iOS_AppStore1024">
                     <Platform Name="iOSDevice64">
@@ -742,6 +784,11 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-120x120.png" Configuration="Debug" Class="iPhone_Spotlight120"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-120x120.png" Configuration="Debug" Class="iPhone_Spotlight120">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-120x120.png" Configuration="Release" Class="iPhone_Spotlight120"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-120x120.png" Configuration="Release" Class="iPhone_Spotlight120">
                     <Platform Name="iOSDevice64">
@@ -749,6 +796,18 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-144x144.png" Configuration="Debug" Class="Android_LauncherIcon144"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-144x144.png" Configuration="Debug" Class="Android_LauncherIcon144">
+                    <Platform Name="Android">
+                        <RemoteName>ic_launcher.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-144x144.png" Configuration="Debug" Class="Android_LauncherIcon144">
+                    <Platform Name="Android64">
+                        <RemoteName>ic_launcher.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-144x144.png" Configuration="Release" Class="Android_LauncherIcon144"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-144x144.png" Configuration="Release" Class="Android_LauncherIcon144">
                     <Platform Name="Android">
@@ -771,6 +830,11 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-152x152.png" Configuration="Debug" Class="iPad_AppIcon152"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-152x152.png" Configuration="Debug" Class="iPad_AppIcon152">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-152x152.png" Configuration="Release" Class="iPad_AppIcon152"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-152x152.png" Configuration="Release" Class="iPad_AppIcon152">
                     <Platform Name="iOSDevice64">
@@ -778,6 +842,11 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-167x167.png" Configuration="Debug" Class="iPad_AppIcon167"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-167x167.png" Configuration="Debug" Class="iPad_AppIcon167">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-167x167.png" Configuration="Release" Class="iPad_AppIcon167"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-167x167.png" Configuration="Release" Class="iPad_AppIcon167">
                     <Platform Name="iOSDevice64">
@@ -785,6 +854,11 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-180x180.png" Configuration="Debug" Class="iPhone_AppIcon180"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-180x180.png" Configuration="Debug" Class="iPhone_AppIcon180">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-180x180.png" Configuration="Release" Class="iPhone_AppIcon180"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-180x180.png" Configuration="Release" Class="iPhone_AppIcon180">
                     <Platform Name="iOSDevice64">
@@ -792,6 +866,18 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-192x192.png" Configuration="Debug" Class="Android_LauncherIcon192"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-192x192.png" Configuration="Debug" Class="Android_LauncherIcon192">
+                    <Platform Name="Android">
+                        <RemoteName>ic_launcher.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-192x192.png" Configuration="Debug" Class="Android_LauncherIcon192">
+                    <Platform Name="Android64">
+                        <RemoteName>ic_launcher.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-192x192.png" Configuration="Release" Class="Android_LauncherIcon192"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-192x192.png" Configuration="Release" Class="Android_LauncherIcon192">
                     <Platform Name="Android">
@@ -805,7 +891,33 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-229x396.png" Configuration="Debug" Class="iPhone_LaunchDark2x"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-229x396.png" Configuration="Release" Class="iPhone_LaunchDark2x"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-229x396.png" Configuration="Release" Class="iPhone_LaunchDark2x">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>FM_LaunchScreenImage_iPhoneDark@2x.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-230x384.png" Configuration="Debug" Class="iPhone_LaunchDark2x">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>FM_LaunchScreenImage_iPhoneDark@2x.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-24x24.png" Configuration="Debug" Class="Android_NotificationIcon24"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-24x24.png" Configuration="Debug" Class="Android_NotificationIcon24">
+                    <Platform Name="Android">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-24x24.png" Configuration="Debug" Class="Android_NotificationIcon24">
+                    <Platform Name="Android64">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-24x24.png" Configuration="Release" Class="Android_NotificationIcon24"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-24x24.png" Configuration="Release" Class="Android_NotificationIcon24">
                     <Platform Name="Android">
@@ -819,7 +931,33 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-344x576.png" Configuration="Debug" Class="iPhone_LaunchDark3x">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>FM_LaunchScreenImage_iPhoneDark@3x.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-344x594.png" Configuration="Debug" Class="iPhone_LaunchDark3x"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-344x594.png" Configuration="Release" Class="iPhone_LaunchDark3x"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-344x594.png" Configuration="Release" Class="iPhone_LaunchDark3x">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>FM_LaunchScreenImage_iPhoneDark@3x.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-36x36.png" Configuration="Debug" Class="Android_NotificationIcon36"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-36x36.png" Configuration="Debug" Class="Android_NotificationIcon36">
+                    <Platform Name="Android">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-36x36.png" Configuration="Debug" Class="Android_NotificationIcon36">
+                    <Platform Name="Android64">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-36x36.png" Configuration="Release" Class="Android_NotificationIcon36"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-36x36.png" Configuration="Release" Class="Android_NotificationIcon36">
                     <Platform Name="Android">
@@ -834,9 +972,46 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-40x40.png" Configuration="Debug" Class="iPad_Notification40"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-40x40.png" Configuration="Debug" Class="iPad_Notification40">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-40x40.png" Configuration="Release" Class="iPad_Notification40"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-40x40.png" Configuration="Release" Class="iPad_Notification40">
                     <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-415x694.png" Configuration="Debug" Class="iPad_LaunchDark2x">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>FM_LaunchScreenImage_iPadDark@2x.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-426x320.png" Configuration="Debug" Class="Android_SplashImage426"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-426x320.png" Configuration="Debug" Class="Android_SplashImage426">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-426x320.png" Configuration="Debug" Class="Android_SplashImage426">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-426x320.png" Configuration="Release" Class="Android_SplashImage426"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-426x320.png" Configuration="Release" Class="Android_SplashImage426">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-426x320.png" Configuration="Release" Class="Android_SplashImage426">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -848,7 +1023,53 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-458x792.png" Configuration="Debug" Class="iPad_LaunchDark2x"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-458x792.png" Configuration="Release" Class="iPad_LaunchDark2x"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-458x792.png" Configuration="Release" Class="iPad_LaunchDark2x">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>FM_LaunchScreenImage_iPadDark@2x.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-470x320.png" Configuration="Debug" Class="Android_SplashImage470"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-470x320.png" Configuration="Debug" Class="Android_SplashImage470">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-470x320.png" Configuration="Debug" Class="Android_SplashImage470">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-470x320.png" Configuration="Release" Class="Android_SplashImage470"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-470x320.png" Configuration="Release" Class="Android_SplashImage470">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-470x320.png" Configuration="Release" Class="Android_SplashImage470">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-48x48.png" Configuration="Debug" Class="Android_NotificationIcon48"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-48x48.png" Configuration="Debug" Class="Android_NotificationIcon48">
+                    <Platform Name="Android">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-48x48.png" Configuration="Debug" Class="Android_NotificationIcon48">
+                    <Platform Name="Android64">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-48x48.png" Configuration="Release" Class="Android_NotificationIcon48"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-48x48.png" Configuration="Release" Class="Android_NotificationIcon48">
                     <Platform Name="Android">
@@ -863,6 +1084,11 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-58x58.png" Configuration="Debug" Class="iPad_Setting58"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-58x58.png" Configuration="Debug" Class="iPad_Setting58">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-58x58.png" Configuration="Release" Class="iPad_Setting58"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-58x58.png" Configuration="Release" Class="iPad_Setting58">
                     <Platform Name="iOSDevice64">
@@ -870,13 +1096,56 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-60x60.png" Configuration="Debug" Class="iPhone_Notification60"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-60x60.png" Configuration="Debug" Class="iPhone_Notification60">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-60x60.png" Configuration="Release" Class="iPhone_Notification60"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-60x60.png" Configuration="Release" Class="iPhone_Notification60">
                     <Platform Name="iOSDevice64">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-640x480.png" Configuration="Debug" Class="Android_SplashImage640"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-640x480.png" Configuration="Debug" Class="Android_SplashImage640">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-640x480.png" Configuration="Debug" Class="Android_SplashImage640">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-640x480.png" Configuration="Release" Class="Android_SplashImage640"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-640x480.png" Configuration="Release" Class="Android_SplashImage640">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-640x480.png" Configuration="Release" Class="Android_SplashImage640">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-72x72.png" Configuration="Debug" Class="Android_NotificationIcon72"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-72x72.png" Configuration="Debug" Class="Android_NotificationIcon72">
+                    <Platform Name="Android">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-72x72.png" Configuration="Debug" Class="Android_NotificationIcon72">
+                    <Platform Name="Android64">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-72x72.png" Configuration="Release" Class="Android_NotificationIcon72"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-72x72.png" Configuration="Release" Class="Android_NotificationIcon72">
                     <Platform Name="Android">
@@ -891,6 +1160,11 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-80x80.png" Configuration="Debug" Class="iPad_SpotLight80"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-80x80.png" Configuration="Debug" Class="iPad_SpotLight80">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-80x80.png" Configuration="Release" Class="iPad_SpotLight80"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-80x80.png" Configuration="Release" Class="iPad_SpotLight80">
                     <Platform Name="iOSDevice64">
@@ -898,13 +1172,56 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-87x87.png" Configuration="Debug" Class="iPhone_Setting87"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-87x87.png" Configuration="Debug" Class="iPhone_Setting87">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-87x87.png" Configuration="Release" Class="iPhone_Setting87"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-87x87.png" Configuration="Release" Class="iPhone_Setting87">
                     <Platform Name="iOSDevice64">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-960x720.png" Configuration="Debug" Class="Android_SplashImage960"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-960x720.png" Configuration="Debug" Class="Android_SplashImage960">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-960x720.png" Configuration="Debug" Class="Android_SplashImage960">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-960x720.png" Configuration="Release" Class="Android_SplashImage960"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-960x720.png" Configuration="Release" Class="Android_SplashImage960">
+                    <Platform Name="Android">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-960x720.png" Configuration="Release" Class="Android_SplashImage960">
+                    <Platform Name="Android64">
+                        <RemoteName>splash_image.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-96x96.png" Configuration="Debug" Class="Android_NotificationIcon96"/>
+                <DeployFile LocalName="..\assets\icones\pairpix-96x96.png" Configuration="Debug" Class="Android_NotificationIcon96">
+                    <Platform Name="Android">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\icones\pairpix-96x96.png" Configuration="Debug" Class="Android_NotificationIcon96">
+                    <Platform Name="Android64">
+                        <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix-96x96.png" Configuration="Release" Class="Android_NotificationIcon96"/>
                 <DeployFile LocalName="..\assets\icones\pairpix-96x96.png" Configuration="Release" Class="Android_NotificationIcon96">
                     <Platform Name="Android">
@@ -919,6 +1236,12 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix.icns" Configuration="Debug" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="..\assets\icones\pairpix.icns" Configuration="Debug" Class="ProjectOSXResource">
+                    <Platform Name="OSXARM64">
+                        <RemoteName>pairpix.icns</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\assets\icones\pairpix.icns" Configuration="Release" Class="ProjectOSXResource"/>
                 <DeployFile LocalName="..\assets\icones\pairpix.icns" Configuration="Release" Class="ProjectOSXResource">
                     <Platform Name="OSX64">
@@ -933,13 +1256,67 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="Android64\Debug\AndroidManifest.xml" Configuration="Debug" Class="ProjectAndroidManifest"/>
+                <DeployFile LocalName="Android64\Debug\AndroidManifest.xml" Configuration="Debug" Class="ProjectAndroidManifest">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Android64\Debug\colors-night-v21.xml" Configuration="Debug" Class="Android_ColorsDark">
+                    <Platform Name="Android64">
+                        <RemoteName>colors.xml</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\colors.xml" Configuration="Debug" Class="Android_Colors"/>
+                <DeployFile LocalName="Android64\Debug\colors.xml" Configuration="Debug" Class="Android_Colors">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\libpairpix.so" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="Android64\Debug\libpairpix.so" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Android64">
+                        <RemoteName>libpairpix.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\provider_paths.xml" Configuration="Debug" Class="AndroidFileProvider"/>
+                <DeployFile LocalName="Android64\Debug\provider_paths.xml" Configuration="Debug" Class="AndroidFileProvider">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\splash_image_def.xml" Configuration="Debug" Class="AndroidSplashImageDef"/>
+                <DeployFile LocalName="Android64\Debug\splash_image_def.xml" Configuration="Debug" Class="AndroidSplashImageDef">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\strings.xml" Configuration="Debug" Class="Android_Strings"/>
+                <DeployFile LocalName="Android64\Debug\strings.xml" Configuration="Debug" Class="Android_Strings">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\styles-v21.xml" Configuration="Debug" Class="AndroidSplashStylesV21"/>
+                <DeployFile LocalName="Android64\Debug\styles-v21.xml" Configuration="Debug" Class="AndroidSplashStylesV21">
+                    <Platform Name="Android64">
+                        <RemoteName>styles.xml</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Android64\Debug\styles-v35.xml" Configuration="Debug" Class="AndroidSplashStylesV35">
+                    <Platform Name="Android64">
+                        <RemoteName>styles.xml</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Debug\styles.xml" Configuration="Debug" Class="AndroidSplashStyles"/>
+                <DeployFile LocalName="Android64\Debug\styles.xml" Configuration="Debug" Class="AndroidSplashStyles">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android64\Release\AndroidManifest.xml" Configuration="Release" Class="ProjectAndroidManifest"/>
                 <DeployFile LocalName="Android64\Release\AndroidManifest.xml" Configuration="Release" Class="ProjectAndroidManifest">
                     <Platform Name="Android64">
@@ -997,13 +1374,67 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="Android\Debug\AndroidManifest.xml" Configuration="Debug" Class="ProjectAndroidManifest"/>
+                <DeployFile LocalName="Android\Debug\AndroidManifest.xml" Configuration="Debug" Class="ProjectAndroidManifest">
+                    <Platform Name="Android">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Android\Debug\colors-night-v21.xml" Configuration="Debug" Class="Android_ColorsDark">
+                    <Platform Name="Android">
+                        <RemoteName>colors.xml</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\colors.xml" Configuration="Debug" Class="Android_Colors"/>
+                <DeployFile LocalName="Android\Debug\colors.xml" Configuration="Debug" Class="Android_Colors">
+                    <Platform Name="Android">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\libpairpix.so" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="Android\Debug\libpairpix.so" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Android">
+                        <RemoteName>libpairpix.so</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\provider_paths.xml" Configuration="Debug" Class="AndroidFileProvider"/>
+                <DeployFile LocalName="Android\Debug\provider_paths.xml" Configuration="Debug" Class="AndroidFileProvider">
+                    <Platform Name="Android">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\splash_image_def.xml" Configuration="Debug" Class="AndroidSplashImageDef"/>
+                <DeployFile LocalName="Android\Debug\splash_image_def.xml" Configuration="Debug" Class="AndroidSplashImageDef">
+                    <Platform Name="Android">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\strings.xml" Configuration="Debug" Class="Android_Strings"/>
+                <DeployFile LocalName="Android\Debug\strings.xml" Configuration="Debug" Class="Android_Strings">
+                    <Platform Name="Android">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\styles-v21.xml" Configuration="Debug" Class="AndroidSplashStylesV21"/>
+                <DeployFile LocalName="Android\Debug\styles-v21.xml" Configuration="Debug" Class="AndroidSplashStylesV21">
+                    <Platform Name="Android">
+                        <RemoteName>styles.xml</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Android\Debug\styles-v35.xml" Configuration="Debug" Class="AndroidSplashStylesV35">
+                    <Platform Name="Android">
+                        <RemoteName>styles.xml</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Debug\styles.xml" Configuration="Debug" Class="AndroidSplashStyles"/>
+                <DeployFile LocalName="Android\Debug\styles.xml" Configuration="Debug" Class="AndroidSplashStyles">
+                    <Platform Name="Android">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Android\Release\AndroidManifest.xml" Configuration="Release" Class="ProjectAndroidManifest"/>
                 <DeployFile LocalName="Android\Release\AndroidManifest.xml" Configuration="Release" Class="ProjectAndroidManifest">
                     <Platform Name="Android">
@@ -1024,12 +1455,6 @@
                 </DeployFile>
                 <DeployFile LocalName="Android\Release\libpairpix.so" Configuration="Release" Class="ProjectOutput">
                     <Platform Name="Android">
-                        <RemoteName>libpairpix.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Android\Release\libpairpix.so" Configuration="Release" Class="ProjectOutput_Android32">
-                    <Platform Name="Android64">
                         <RemoteName>libpairpix.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
@@ -1091,9 +1516,32 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="OSXARM64\Debug\pairpix.dSYM" Configuration="Debug" Class="ProjectOSXDebug">
+                    <Platform Name="OSXARM64">
+                        <RemoteName>pairpix</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="OSXARM64\Debug\pairpix.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements"/>
+                <DeployFile LocalName="OSXARM64\Debug\pairpix.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements">
+                    <Platform Name="OSXARM64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="OSXARM64\Debug\pairpix.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList"/>
+                <DeployFile LocalName="OSXARM64\Debug\pairpix.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList">
+                    <Platform Name="OSXARM64">
+                        <RemoteName>Info.plist</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="OSXARM64\Debug\pairpix" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="OSXARM64\Debug\pairpix" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="OSXARM64">
+                        <RemoteName>pairpix</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="OSXARM64\Release\pairpix.entitlements" Configuration="Release" Class="ProjectOSXEntitlements"/>
                 <DeployFile LocalName="OSXARM64\Release\pairpix.entitlements" Configuration="Release" Class="ProjectOSXEntitlements">
                     <Platform Name="OSXARM64">
@@ -1137,90 +1585,39 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\229x396.png" Configuration="Debug" Class="iPhone_LaunchDark2x"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\229x396.png" Configuration="Release" Class="iPhone_LaunchDark2x"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\229x396.png" Configuration="Release" Class="iPhone_LaunchDark2x">
+                <DeployFile LocalName="iOSDevice64\Debug\pairpix.dSYM" Configuration="Debug" Class="ProjectiOSDeviceDebug">
                     <Platform Name="iOSDevice64">
-                        <RemoteName>FM_LaunchScreenImage_iPhoneDark@2x.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\344x594.png" Configuration="Debug" Class="iPhone_LaunchDark3x"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\344x594.png" Configuration="Release" Class="iPhone_LaunchDark3x"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\344x594.png" Configuration="Release" Class="iPhone_LaunchDark3x">
-                    <Platform Name="iOSDevice64">
-                        <RemoteName>FM_LaunchScreenImage_iPhoneDark@3x.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\426x320.png" Configuration="Debug" Class="Android_SplashImage426"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\426x320.png" Configuration="Release" Class="Android_SplashImage426"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\426x320.png" Configuration="Release" Class="Android_SplashImage426">
-                    <Platform Name="Android">
-                        <RemoteName>splash_image.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\426x320.png" Configuration="Release" Class="Android_SplashImage426">
-                    <Platform Name="Android64">
-                        <RemoteName>splash_image.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\458x792.png" Configuration="Debug" Class="iPad_LaunchDark2x"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\458x792.png" Configuration="Release" Class="iPad_LaunchDark2x"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\458x792.png" Configuration="Release" Class="iPad_LaunchDark2x">
-                    <Platform Name="iOSDevice64">
-                        <RemoteName>FM_LaunchScreenImage_iPadDark@2x.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\470x320.png" Configuration="Debug" Class="Android_SplashImage470"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\470x320.png" Configuration="Release" Class="Android_SplashImage470"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\470x320.png" Configuration="Release" Class="Android_SplashImage470">
-                    <Platform Name="Android">
-                        <RemoteName>splash_image.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\470x320.png" Configuration="Release" Class="Android_SplashImage470">
-                    <Platform Name="Android64">
-                        <RemoteName>splash_image.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\640x480.png" Configuration="Debug" Class="Android_SplashImage640"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\640x480.png" Configuration="Release" Class="Android_SplashImage640"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\640x480.png" Configuration="Release" Class="Android_SplashImage640">
-                    <Platform Name="Android">
-                        <RemoteName>splash_image.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\640x480.png" Configuration="Release" Class="Android_SplashImage640">
-                    <Platform Name="Android64">
-                        <RemoteName>splash_image.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\960x720.png" Configuration="Debug" Class="Android_SplashImage960"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\960x720.png" Configuration="Release" Class="Android_SplashImage960"/>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\960x720.png" Configuration="Release" Class="Android_SplashImage960">
-                    <Platform Name="Android">
-                        <RemoteName>splash_image.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="\\nasbox01\gamolf\_design\960x720.png" Configuration="Release" Class="Android_SplashImage960">
-                    <Platform Name="Android64">
-                        <RemoteName>splash_image.png</RemoteName>
+                        <RemoteName>pairpix</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="iOSDevice64\Debug\pairpix.entitlements" Configuration="Debug" Class="ProjectiOSEntitlements"/>
+                <DeployFile LocalName="iOSDevice64\Debug\pairpix.entitlements" Configuration="Debug" Class="ProjectiOSEntitlements">
+                    <Platform Name="iOSDevice64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="iOSDevice64\Debug\pairpix.info.plist" Configuration="Debug" Class="ProjectiOSInfoPList"/>
+                <DeployFile LocalName="iOSDevice64\Debug\pairpix.info.plist" Configuration="Debug" Class="ProjectiOSInfoPList">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>Info.plist</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="iOSDevice64\Debug\pairpix.launchscreen" Configuration="Debug" Class="ProjectiOSLaunchScreen"/>
+                <DeployFile LocalName="iOSDevice64\Debug\pairpix.launchscreen" Configuration="Debug" Class="ProjectiOSLaunchScreen">
+                    <Platform Name="iOSDevice64">
+                        <Operation>64</Operation>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="iOSDevice64\Debug\pairpix" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="iOSDevice64\Debug\pairpix" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>pairpix</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="iOSDevice64\Release\pairpix.entitlements" Configuration="Release" Class="ProjectiOSEntitlements"/>
                 <DeployFile LocalName="iOSDevice64\Release\pairpix.entitlements" Configuration="Release" Class="ProjectiOSEntitlements">
                     <Platform Name="iOSDevice64">
