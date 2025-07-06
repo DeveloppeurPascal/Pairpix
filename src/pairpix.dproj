@@ -5,8 +5,8 @@
         <FrameworkType>FMX</FrameworkType>
         <MainSource>pairpix.dpr</MainSource>
         <Base>True</Base>
-        <Config Condition="'$(Config)'==''">Release</Config>
-        <Platform Condition="'$(Platform)'==''">Win64</Platform>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
         <TargetedPlatforms>168979</TargetedPlatforms>
         <AppType>Application</AppType>
         <PlatformSDK Condition="'$(PlatformSDK)'=='' And '$(Platform)'=='Android64'">AndroidSDK25.2.5_64bit.sdk</PlatformSDK>
@@ -441,10 +441,10 @@
         <VerInfo_Locale>1033</VerInfo_Locale>
         <AppDPIAwarenessMode>PerMonitor</AppDPIAwarenessMode>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
-        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.2;InternalName=;LegalCopyright=2022 Patrick Prémartin;LegalTrademarks=;OriginalFilename=;ProgramID=fr.gamolf.memory.dev;ProductName=$(MSBuildProjectName);ProductVersion=1.0;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.4;InternalName=;LegalCopyright=2022 Patrick Prémartin;LegalTrademarks=;OriginalFilename=;ProgramID=fr.gamolf.memory.dev;ProductName=$(MSBuildProjectName);ProductVersion=1.0;Comments=</VerInfo_Keys>
         <Icon_MainIcon>..\assets\icones\pairpix.ico</Icon_MainIcon>
         <Icns_MainIcns>..\assets\icones\pairpix.icns</Icns_MainIcns>
-        <VerInfo_Build>2</VerInfo_Build>
+        <VerInfo_Build>4</VerInfo_Build>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
@@ -469,6 +469,12 @@
         <VerInfo_Keys>package=fr.gamolf.pairpix;label=$(MSBuildProjectName);versionCode=9;versionName=1.4;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=Aucune barre de titre;hardwareAccelerated=true;apiKey=;minSdkVersion=23;targetSdkVersion=35</VerInfo_Keys>
         <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
         <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
+        <Android_SplashImage426>..\assets\icones\pairpix-426x320.png</Android_SplashImage426>
+        <Android_SplashImage470>..\assets\icones\pairpix-470x320.png</Android_SplashImage470>
+        <Android_SplashImage640>..\assets\icones\pairpix-640x480.png</Android_SplashImage640>
+        <Android_SplashImage960>..\assets\icones\pairpix-960x720.png</Android_SplashImage960>
+        <Android_SplashTileMode>disabled</Android_SplashTileMode>
+        <Android_SplashGravity>center</Android_SplashGravity>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Android64)'!=''">
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
@@ -478,6 +484,12 @@
         <VerInfo_Keys>package=fr.gamolf.pairpix;label=$(MSBuildProjectName);versionCode=8;versionName=1.4;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=Aucune barre de titre;hardwareAccelerated=true;apiKey=;minSdkVersion=23;targetSdkVersion=35</VerInfo_Keys>
         <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
         <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
+        <Android_SplashImage426>..\assets\icones\pairpix-426x320.png</Android_SplashImage426>
+        <Android_SplashImage470>..\assets\icones\pairpix-470x320.png</Android_SplashImage470>
+        <Android_SplashImage640>..\assets\icones\pairpix-640x480.png</Android_SplashImage640>
+        <Android_SplashImage960>..\assets\icones\pairpix-960x720.png</Android_SplashImage960>
+        <Android_SplashTileMode>disabled</Android_SplashTileMode>
+        <Android_SplashGravity>center</Android_SplashGravity>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_iOSDevice64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
@@ -491,6 +503,12 @@
         <iOS_DarkBackgroundColor>FFE6ECF1</iOS_DarkBackgroundColor>
         <VerInfo_MinorVer>4</VerInfo_MinorVer>
         <IOSTransportSecFeat>false</IOSTransportSecFeat>
+        <iPhone_Launch2x>..\assets\icones\pairpix-230x384.png</iPhone_Launch2x>
+        <iPhone_LaunchDark2x>..\assets\icones\pairpix-230x384.png</iPhone_LaunchDark2x>
+        <iPhone_Launch3x>..\assets\icones\pairpix-344x576.png</iPhone_Launch3x>
+        <iPhone_LaunchDark3x>..\assets\icones\pairpix-344x576.png</iPhone_LaunchDark3x>
+        <iPad_Launch2x>..\assets\icones\pairpix-415x694.png</iPad_Launch2x>
+        <iPad_LaunchDark2x>..\assets\icones\pairpix-415x694.png</iPad_LaunchDark2x>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_iOSSimARM64)'!=''">
         <Cfg_2>true</Cfg_2>
@@ -524,7 +542,6 @@
         <VerInfo_MinorVer>4</VerInfo_MinorVer>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
-        <AppDPIAwarenessMode>PerMonitor</AppDPIAwarenessMode>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.4.0.0;InternalName=;LegalCopyright=(c) 2022-2024 Patrick Prémartin;LegalTrademarks=;OriginalFilename=;ProgramID=fr.gamolf.pairpix;ProductName=$(MSBuildProjectName);ProductVersion=1.4;Comments=</VerInfo_Keys>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
@@ -538,7 +555,6 @@
         <PF_UWPDistributionType>Store</PF_UWPDistributionType>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
-        <AppDPIAwarenessMode>PerMonitor</AppDPIAwarenessMode>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.4.0.0;InternalName=;LegalCopyright=(c) 2022-2024 Patrick Prémartin;LegalTrademarks=;OriginalFilename=;ProgramID=fr.gamolf.pairpix;ProductName=$(MSBuildProjectName);ProductVersion=1.4;Comments=</VerInfo_Keys>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
