@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/Pairpix
 
   ***************************************************************************
-  File last update : 2025-07-03T10:44:17.175+02:00
-  Signature : 8459ab2c32d01fccc529068b083daa2917e4f8cb
+  File last update : 2025-07-06T16:32:14.000+02:00
+  Signature : e27faaccf39d7d05b98c1d88cc54320c661e96ae
   ***************************************************************************
 *)
 
@@ -242,7 +242,7 @@ begin
         frm.btnAccueil.Visible := false;
       end
       else
-        frm := nil;
+        raise exception.Create('Wrong use case. Can''t initialize the variable "frm"');
 
       if (Sender is TBoutonPartage) then
         (Sender as TBoutonPartage).Visible := false;
