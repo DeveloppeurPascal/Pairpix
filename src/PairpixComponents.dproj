@@ -2,7 +2,7 @@
     <PropertyGroup>
         <ProjectGuid>{EE8C7858-7D7C-4976-898D-36DF194A1DF7}</ProjectGuid>
         <MainSource>PairpixComponents.dpk</MainSource>
-        <ProjectVersion>20.2</ProjectVersion>
+        <ProjectVersion>20.3</ProjectVersion>
         <FrameworkType>FMX</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
@@ -342,6 +342,16 @@
                     </Platform>
                     <Platform Name="Android64">
                         <RemoteDir>res\values-v31</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashStylesV35">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values-v35</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\values-v35</RemoteDir>
                         <Operation>1</Operation>
                     </Platform>
                 </DeployClass>
