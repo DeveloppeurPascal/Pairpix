@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/Pairpix
 
   ***************************************************************************
-  File last update : 2025-07-03T10:44:17.196+02:00
-  Signature : 8689d07ea759e2560bf8b77ccbdd01d95ef125f8
+  File last update : 2025-07-06T16:30:38.000+02:00
+  Signature : 9f759860c98dfb70befa1aa1b59042dc7234e33e
   ***************************************************************************
 *)
 
@@ -60,7 +60,6 @@ type
     FTextVisible: boolean;
     FText: string;
     procedure SetKind(const Value: TGameButtonKind);
-    procedure SetEnabled(const Value: boolean); override;
     procedure SetText(const Value: string);
     procedure SetTextVisible(const Value: boolean);
   protected
@@ -68,6 +67,7 @@ type
     FImgOn, FImgOff, FImgOver: integer;
     procedure MouseEnter(Sender: TObject);
     procedure MouseLeave(Sender: TObject);
+    procedure SetEnabled(const Value: boolean); override;
   public
     { Déclarations publiques }
     constructor Create(AOwner: TComponent); override;
